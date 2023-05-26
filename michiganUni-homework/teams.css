@@ -1,0 +1,31 @@
+@import "style.css";
+
+.active-teams{
+        color: #0000ff;
+          background-color: #ffffff;
+
+}
+
+td {
+  background: darkgrey; 
+  color: darkblue; 
+  border: 2px solid #FFFFFF;
+  text-align: center;
+}
+table, td, th {
+	    
+  padding: 1%;
+  border-radius: 5px;
+}
+tr th:first-child, tr td:first-child {
+  text-align: left;
+}
+tr td {
+  opacity: 0.8;
+
+}
+tr td:hover {
+  opacity: 2.5;
+  text-align: center;
+  font-size: 120%;
+}
